@@ -1,41 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Трансформации</title>
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Возьми хвостик</title>
+<!--    <link rel="stylesheet" href="./font/Inter_Web/inter.css">-->
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.js"></script>
+
+    <!--    <link rel="shortcut icon" href="C:\Users/Nina/OneDrive/Desktop/Разработка/Фото/favicon.ico" type="image/x-icon">-->
 </head>
 <body>
-  <header class="header">
-    <div class="header__wrapper">
-      <img src="https://pictures.s3.yandex.net/animation_topic/logo.svg" alt="логотип" class="logo">
+<div class="page">
+    <header class="header">
+        <div class="gallery">
+        <div class="header_non">
+        <nav class="header__nav">
+            <ul class="header__social">
+                <button type="button" class="header__social_menu-btn"> <li class="header__social_link">
+                    <a href="#" class="header__menu" target="_blank">
+                        <img class="header__icon header__menu header__menu_btn" src="./image/menu4.png" alt="меню"></a></li></button>
+                <button type="button" class="header__social_fb-btn"><li class="header__social_link">
+                    <a class="header__fb" target="_blank" href="https://www.facebook.com/%D0%92%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D1%85%D0%B2%D0%BE%D1%81%D1%82%D0%B8%D0%BA-Take-a-pet-916494875165840/">
+                        <img class="header__icon header__fb" src="./image/fb.png" alt="фб"></a></li></button>
+                    <button type="button" class="header__social_vk-btn"><li class="header__social_link">
+                    <a class="header__vk" target="_blank" href="https://vk.com/club151605479">
+                        <img class="header__icon header__vk" src="./image/vk.png" alt="вк"></a></li></button>
+                        <button type="button" class="header__social_inst-btn"><li class="header__social_link">
+                    <a class="header__inst" target="_blank" href="https://www.instagram.com/take_a_pet/?hl=ru">
+                        <img class="header__icon header__inst" src="./image/insta.png" alt="инстаграм"></a></li>
+                        </button>
+            </ul>
+        </nav>
+        </div>
+        <figure class="gallery__item"><img src="./image/silver.jpg" class="gallery__image gallery_one" alt="Силя"></figure>
+        <figure class="gallery__item"><img src="./image/D08B0630.jpg" class="gallery__image gallery_two" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/IMG_3274.jpg" class="gallery__image gallery_three" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B0934!.jpg" class="gallery__image gallery_for" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/logo.png" class="gallery__image gallery_logo" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B5326!.png" class="gallery__image gallery_logo" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B0234.jpg" class="gallery__image gallery_logo" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B0127.jpg" class="gallery__image gallery_logo" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B4156!!.jpg" class="gallery__image gallery_logo" alt=""></figure>
+        <figure class="gallery__item"><img src="./image/D08B7179.jpg" class="gallery__image gallery_logo" alt=""></figure>
+        </div>
+    </header>
+    <section id="intro" class="intro">
+        <h2 class="intro__title">Группа помощи бездомным животным
+            <span class="intro__title_bold">Возьми хвостик</span>
+                </h2>
+        <img class="intro__img" src="./image/D08B8490!.jpg" alt="">
+        <p class="intro__text">Мы - небольшая группа волонтёров, которая с 2014 года помогает животным выжить и обрести свой дом. За это время мы пристроили несколько сотен бездомных и брошенных хвостов и обрели уверенность в том, что мир не без добрых людей!  Мы помогаем приютам и, иногда, берём зверят на передержку к себе домой,  опытные люди знают, что не всех животных можно отправить в приют и поселить в уличный вольер или стаю кошек…
+            Данная страничка - наша большая надежда! Ее главная цель - помощь животным, которые в ней остро нуждается, а также поиск для них нового дома!
+            Мы можем делать всё это только благодаря вашей поддержке!
+            Нас всего несколько человек, количество животных постоянно растет. Нам нужна любая помощах неравнодушных людей:
+            помощь пиаром животных, передержкой, руками, транспортом, помощь кормами и лекарствами, материальная помощь.</p>
+    </section>
+    <section id="help" class="help">
+            <img src="./image/D08B4831!!.jpg" class="help__img">
+            <h4 class="help__title">Как помочь животным:</h4>
+        <div class="help__text">
+            <ul>
+            <li class="help__list">4276*8381*5877*5843 - сб - Нина Владимировна</li>
+            <li class="help__list">+7 (910) 464-79-85 - голодный телефон</li>
+            <li class="help__list">410012814З56842 - яндекс кошелёк</li>
+            <li class="help__list">Можно передать подарки, корма, пеленки, наполнители, лекарства и т.д...</li>
+        </ul>
+        <p class="help__contact">Тел. для связи:</p>
+        <p class="help__contact">Наталья +7 (910) 440-53-41</p>
+        <p class="help__contact">Нина +7 (910) 464-79-85</p>
+        </div>
+<!--        <img class="help__img" src="./image/IMG-20180303-WA0045.jpg">-->
+    </section>
+<section id="news" class="news">
+    <h2 class="news__title">Наши новости</h2>
+    <div class="news__instagram">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CB5ghPXKHHW/" data-instgrm-version="8"></blockquote><script async defer src="https://www.instagram.com/embed.js"></script>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CB0TKD1Kf1o/" data-instgrm-version="8"></blockquote><script async defer src="https://www.instagram.com/embed.js"></script>
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CBxjdYiqa16/" data-instgrm-version="8"></blockquote><script async defer src="https://www.instagram.com/embed.js"></script>
     </div>
-  </header>
-  <section class="transform">
-    <div class="transform__wrapper">
-      <h2 class="title">Трансформации элементов</h2>
-      <p class="subtitle">4 задачи, которыми обычно исчерпывается превращение в CSS — сдвинуть элемент (translate), повернуть его (rotate), масштабировать (scale) и перекосить (skew).</p>
-      <div class="demo demo_transform">
-        <div class="demo__item demo__item_type_translate">
-          <h3 class="demo__item-title">Translate</h3>
-          <img src="https://pictures.s3.yandex.net/animation_topic/arrow.svg" alt="translate demo" class="demo__icon">
-        </div>
-        <div class="demo__item demo__item_type_rotate">
-          <h3 class="demo__item-title">Rotate</h3>
-          <img src="https://pictures.s3.yandex.net/animation_topic/loader.svg" alt="rotate demo" class="demo__icon">
-        </div>
-        <div class="demo__item demo__item_type_scale">
-          <h3 class="demo__item-title">Scale</h3>
-          <img src="https://pictures.s3.yandex.net/animation_topic/heart.svg" alt="scale demo" class="demo__icon">
-        </div>
-        <div class="demo__item demo__item_type_skew">
-          <h3 class="demo__item-title">Skew</h3>
-          <img src="https://pictures.s3.yandex.net/animation_topic/skew.svg" alt="skew demo" class="demo__icon">
-        </div>
-      </div>
+</section>
+
+<div class="friends" id="friends">
+    <h2 class="friends__title">Наши друзья</h2>
+    <ul class="friends__list">
+        <li class="friend"><a class="friends__link" href="https://www.facebook.com/umkalg"><img class="friends__img" src="./image/19221797_766667180161961_3084445660487429142_o.jpg" alt="Умка"><p class="friends__name">Приют для кошек и собак "Умка" Лесной городок</p></a></li>
+        <li class="friend"><a class="friends__link" href="https://rayfund.ru/"><img class="friends__img" src="./image/12049637_420289274841508_5197921478793215180_n.jpg" alt="РЭЙ"><p class="friends__name">Фонд помощи бездомным животным "РЭЙ"</p></a></li>
+        <li class="friend"><a class="friends__link" href="https://www.facebook.com/filinn.zoo"><img class="friends__img" src="./image/38643157_1374636165972034_1467861625242386432_o.jpg" alt="Филин"><p class="friends__name">Зооцентр Фил-inn</p></a></li>
+    </ul>
+</div>
+    <div class="clear"></div>
+<div class="substrate-footer"></div>
+</div>
+<footer class="footer" id="contact">
+    <div class="footer__content">
+    <div class="footer__contact">
+    <p>Тел. для связи:<br>
+    Наталья +7 (910) 440-53-41<br>
+    Нина +7 (910) 464-79-85<br>
     </div>
-  </section>
+    <nav class="footer__social">
+        <ul>
+            <li class="footer__social_list"><a class="footer__social_link" href="https://www.facebook.com/%D0%92%D0%BE%D0%B7%D1%8C%D0%BC%D0%B8-%D1%85%D0%B2%D0%BE%D1%81%D1%82%D0%B8%D0%BA-Take-a-pet-916494875165840/">Facebook</a></li>
+            <li class="footer__social_list"><a class="footer__social_link" href="https://vk.com/club151605479">Вконтакте</a></li>
+            <li class="footer__social_list"><a class="footer__social_link" href="https://www.instagram.com/take_a_pet/?hl=ru">Instagram</a></li>
+        </ul>
+    </nav>
+        <div class="footer__copyright">
+    <p class="footer__copyright_text">© 2020 Нина иванова</p>
+        </div>
+    </div>
+</footer>
+<form action="#" class="form">
+
+    <nav class="form__menu">
+        <ul>
+            <li class="form__menu_paragraphs form__menu_paragraph_intro"><button type="button" class="form__btn form__btn_intro"><a class="form__menu_paragraph" href="#intro">Давайте знакомиться</a></button></li>
+            <li class="form__menu_paragraphs form__menu_paragraph_help"><button type="button" class="form__btn form__btn_help"><a class="form__menu_paragraph" href="#help">Давайте помогать вместе</a></button></li>
+            <li class="form__menu_paragraphs form__menu_paragraph_news"><button type="button" class="form__btn form__btn_news"><a class="form__menu_paragraph" href="#news">Наши новости</a></button></li>
+            <li class="form__menu_paragraphs form__menu_paragraph_friends"><button type="button" class="form__btn form__btn_friends"><a class="form__menu_paragraph" href="#friends">Наши друзья</a></button></li>
+            <li class="form__menu_paragraphs form__menu_paragraph_contact"><button type="button" class="form__btn form__btn_contact"><a class="form__menu_paragraph" href="#contact">Контакты</a></button></li>
+        </ul>
+        <button class="form__btn_close" type="button">+</button>
+    </nav>
+</form>
+<script src="script.js"></script>
 </body>
 </html>
